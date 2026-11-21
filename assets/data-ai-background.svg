@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" fill="none">
+ <defs>
+  <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" stroke="#263246" stroke-opacity=".28" stroke-width="1"/></pattern>
+  <radialGradient id="glowBlue"><stop stop-color="#2768e8" stop-opacity=".28"/><stop offset="1" stop-color="#2768e8" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowRed"><stop stop-color="#ed424b" stop-opacity=".2"/><stop offset="1" stop-color="#ed424b" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowGold"><stop stop-color="#f6d52e" stop-opacity=".16"/><stop offset="1" stop-color="#f6d52e" stop-opacity="0"/></radialGradient>
+  <linearGradient id="flow" x1="180" y1="1040" x2="1420" y2="180" gradientUnits="userSpaceOnUse"><stop stop-color="#f6d52e"/><stop offset=".48" stop-color="#2864e8"/><stop offset="1" stop-color="#ed424b"/></linearGradient>
+ </defs>
+ <rect width="1600" height="1200" fill="url(#grid)"/>
+ <ellipse cx="250" cy="280" rx="370" ry="350" fill="url(#glowBlue)"/>
+ <ellipse cx="1330" cy="860" rx="390" ry="360" fill="url(#glowRed)"/>
+ <ellipse cx="900" cy="210" rx="340" ry="270" fill="url(#glowGold)"/>
+ <!-- Neural graph -->
+ <g stroke="url(#flow)" stroke-opacity=".32" stroke-width="2">
+  <path d="M90 770 260 590 440 710 610 430 800 560 980 340 1170 470 1390 260"/>
+  <path d="M90 770 300 920 510 800 720 980 920 750 1110 910 1320 690 1510 790"/>
+  <path d="M260 590 300 920M440 710 510 800M610 430 720 980M800 560 920 750M980 340 1110 910M1170 470 1320 690M1390 260 1510 790"/>
+  <path d="M130 320C360 450 410 260 590 320S900 460 1080 280 1320 210 1500 350" stroke-dasharray="4 12"/>
+  <path d="M110 1060C320 990 460 1080 640 1020S940 970 1110 1030 1350 1090 1510 990" stroke-dasharray="4 12"/>
+ </g>
+ <g fill="#08090c" stroke-width="3">
+  <circle cx="90" cy="770" r="8" stroke="#f6d52e"/><circle cx="260" cy="590" r="9" stroke="#2864e8"/>
+  <circle cx="440" cy="710" r="7" stroke="#ed424b"/><circle cx="610" cy="430" r="10" stroke="#f6d52e"/>
+  <circle cx="800" cy="560" r="8" stroke="#2864e8"/><circle cx="980" cy="340" r="9" stroke="#ed424b"/>
+  <circle cx="1170" cy="470" r="7" stroke="#f6d52e"/><circle cx="1390" cy="260" r="10" stroke="#2864e8"/>
+  <circle cx="300" cy="920" r="8" stroke="#ed424b"/><circle cx="510" cy="800" r="9" stroke="#f6d52e"/>
+  <circle cx="720" cy="980" r="7" stroke="#2864e8"/><circle cx="920" cy="750" r="10" stroke="#ed424b"/>
+  <circle cx="1110" cy="910" r="8" stroke="#f6d52e"/><circle cx="1320" cy="690" r="9" stroke="#2864e8"/>
+  <circle cx="1510" cy="790" r="7" stroke="#ed424b"/>
+ </g>
+ <!-- Analytics traces -->
+ <g stroke-width="2" stroke-opacity=".18">
+  <path d="M170 190h240M170 210h150M1210 530h240M1280 550h170M180 470h130" stroke="#8bb5ff"/>
+  <path d="M1100 170v95m24-140v140m24-100v100m24-155v155m24-72v72" stroke="#f6d52e"/>
+  <path d="M260 1010v42m24-68v68m24-30v30m24-83v83m24-47v47" stroke="#ed424b"/>
+ </g>
+</svg>
